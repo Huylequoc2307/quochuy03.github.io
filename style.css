@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #1f242d;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    padding: 20px 10%;
+}
+
+.menu h1 {
+    font-family: 'Bruno Ace SC', cursive;
+    color: aliceblue;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 30px;
+    font-weight: 500;
+    font-size: 20px;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.info{
+    background: #ffffff;
+    width: 250px;
+    height: 100vh;
+    text-align: center;
+    margin-top: 10px;
+}
+.info img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin-top: 10px;
+}
+
+.code{
+    display: grid;
+    gap: 50px;
+}
+.box{
+    background: #ffffff;
+    width: 150px;
+    height: 250px;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+.country a{
+    text-decoration: none;
+    color: #1f242d;
+    background: #ffffff;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.country a:hover{
+    color: aqua;
+}
